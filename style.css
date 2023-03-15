@@ -46,3 +46,19 @@ a {
   color: #3f99f3;
   text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .teams-container {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .team {
+    flex: 1;
+    margin: 0 1rem;
+  }
+}
