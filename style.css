@@ -1,0 +1,48 @@
+/* Border box reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #001433;
+  --text-primary: #fff;
+  --color-secondary: #4dff00;
+  --color-tertiary: #245998;
+  --font-main: "Montserrat", Helvetica, sans-serif;
+}
+
+body {
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  background-color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-main);
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+a {
+  color: #3f99f3;
+  text-decoration: none;
+}
